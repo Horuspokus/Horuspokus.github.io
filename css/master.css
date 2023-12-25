@@ -37,7 +37,7 @@ header a {
 /* Showcase Styles */
 .showcase {
     min-height: 400px;
-    background: url('path-to-your-image.jpg') no-repeat 0 -100px;
+    background: url('../images/portrefotosurat.jpg') no-repeat 0 -100px;
     text-align: center;
     color: #ffffff;
 }
@@ -102,7 +102,7 @@ footer {
 }
 
 header {
-    background: url('images/your-photo.jpg') no-repeat center center/cover;
+    background: url('../images/portrefotosurat.jpg') no-repeat center center/cover;
     color: #fff;
     height: 100vh;
 }
