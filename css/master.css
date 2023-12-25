@@ -100,3 +100,30 @@ footer {
     color: #ffffff;
     text-align: center;
 }
+
+header {
+    background: url('images/your-photo.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
