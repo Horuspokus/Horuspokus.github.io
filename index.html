@@ -4,30 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta name="name" content="Gökhan Dönmez's CV">
-    <meta name="robots" content="noindex, nofollow">
-    <title>Gökhan Dönmez's Portfolio</title>
+    <meta name="name" content="Gökhan Dönmez - Portfolio">
+    <meta name="description" content="Product development manager and civil engineering student building XR-ready AEC tools and immersive web experiences.">
+    <title>Gökhan Dönmez | Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/master.css">
-    <link rel="shortcut" href="favicon.ico" type="image/x-icon">
-    <link rel="FaviconIcon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header class="top-bar">
         <div class="container">
             <div class="branding">
-                <span class="logo">GD</span>
+                <span class="logo" aria-hidden="true">GD</span>
                 <div>
-                    <p class="eyebrow">Extended Reality &amp; Web Developer</p>
+                    <p class="eyebrow">Product Development Manager &amp; Civil Engineer</p>
                     <h1>Gökhan Dönmez</h1>
-                    <p class="eyebrow">LXIR-inspired interface</p>
+                    <p class="eyebrow">Building XR-ready AEC products and neon-forward web experiences</p>
                 </div>
             </div>
-            <nav>
+            <nav aria-label="Primary navigation">
                 <ul>
                     <li><a href="#about">About</a></li>
+                    <li><a href="#expertise">Expertise</a></li>
+                    <li><a href="#skills">Skills</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -36,85 +38,337 @@
     </header>
 
     <main>
-        <section class="hero">
+        <section class="hero" aria-labelledby="hero-title">
             <div class="container">
                 <div class="hero-copy">
-                    <p class="eyebrow">Civil Engineering Student • ENKA Alumni Leader</p>
-                    <h2>Blending technical craft with immersive storytelling.</h2>
+                    <div class="pill">Product Development @ IDEARC • B.Sc. Civil Engineering, MEF University</div>
+                    <h2 id="hero-title">Designing XR-ready AEC products that move from prototype to launch.</h2>
                     <p>
-                        I build web experiences and extended reality prototypes while studying Civil Engineering at
-                        MEF University. I also serve as Chairman of the Supervisory Board for ENKA Technical Schools
-                        Alumni Association and President of MEF ASCE. This portfolio is styled to echo LXIR's
-                        futuristic, neon-accented identity.
+                        I lead product development for transportation and AEC solutions, optimize BRT systems, and
+                        translate structural engineering rigor into intuitive digital experiences. Every build blends
+                        measurable operations with cinematic, LXIR-inspired visuals.
                     </p>
                     <div class="actions">
-                        <a class="btn primary" href="docs/resume_donmez_gokhan_29052024.pdf">View Resume</a>
-                        <a class="btn ghost" href="#portfolio">See Projects</a>
+                        <a class="btn primary" href="docs/Profile.pdf">Download Resume</a>
+                        <a class="btn ghost" href="#portfolio">See Selected Work</a>
+                    </div>
+                    <div class="quick-stats" aria-label="Quick highlights">
+                        <div class="stat">
+                            <span class="stat-label">Leadership</span>
+                            <span class="stat-value">Product Development Manager @ IDEARC • ENKA Alumni Supervisory Board Chair</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Focus Areas</span>
+                            <span class="stat-value">BRT optimization, XR storytelling, product lifecycle ownership</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Based in</span>
+                            <span class="stat-value">Istanbul, Türkiye</span>
+                        </div>
                     </div>
                 </div>
-                <div class="hero-card">
+                <div class="hero-card" aria-label="Shortcut links">
                     <h3>Quick Links</h3>
+                    <p class="muted">Explore my active workspaces and say hello.</p>
                     <ul>
-                        <li><a href="https://lxir.tech" target="_blank" rel="noopener">LXIR.tech</a></li>
-                        <li><a href="https://github.com/Horuspokus" target="_blank" rel="noopener">GitHub</a></li>
-                        <li><a href="https://www.linkedin.com/in/donmezgokhan/" target="_blank" rel="noopener">LinkedIn</a></li>
+                        <li><a href="https://lxir.tech" target="_blank" rel="noopener noreferrer">LXIR.tech</a></li>
+                        <li><a href="https://github.com/Horuspokus" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/donmezgokhan/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
                         <li><a href="mailto:gokhan@gokhandonmez.dev">gokhan@gokhandonmez.dev</a></li>
                     </ul>
+                    <div class="glow-card">
+                        <p class="eyebrow">Recent spark</p>
+                        <p class="muted">Piloting XR visualizations to pair with BRT optimizations and structural walkthroughs.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="about" class="section">
+        <section id="about" class="section" aria-labelledby="about-title">
             <div class="container two-column">
                 <div>
-                    <h2>About Me</h2>
-                    <p>Curious builder exploring how extended reality and the web can make complex ideas easier to grasp. I enjoy leading teams, mentoring peers, and turning early-stage ideas into polished demos with a visual language that mirrors LXIR's glowing gradients.</p>
+                    <p class="eyebrow">About</p>
+                    <h2 id="about-title">Engineering discipline, product rigor, and XR storytelling.</h2>
+                    <p class="muted">
+                        I'm a third-year civil engineering student at MEF University and Product Development Manager at
+                        IDEARC International Engineering and Consulting. I manage product lifecycles, optimize
+                        transportation systems, and translate structural analysis into digital experiences. Training
+                        like YetGen sharpened my facilitation and communication, while community leadership keeps me
+                        building with people at the center.
+                    </p>
+                    <div class="about-grid">
+                        <div class="about-card">
+                            <h3>How I work</h3>
+                            <p class="muted">Plan for full lifecycles, validate with real stakeholders, and iterate quickly until the operations and visuals click.</p>
+                        </div>
+                        <div class="about-card">
+                            <h3>What motivates me</h3>
+                            <p class="muted">Shipping AEC tools that cut congestion, mentoring student teams, and crafting XR demos that make technical ideas tangible.</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="highlight">
-                    <h3>Recent Focus</h3>
-                    <ul>
-                        <li>Interactive XR walkthroughs for structural concepts</li>
-                        <li>Responsive web prototypes with clean UI systems</li>
-                        <li>Student leadership and community building</li>
-                        <li>Bringing LXIR-inspired styling to immersive demos</li>
+                    <h3>Snapshot</h3>
+                    <ul class="snapshot">
+                        <li><span>Current</span><strong>B.Sc. Civil Engineering, MEF University</strong></li>
+                        <li><span>Role</span><strong>Product Development Manager, IDEARC</strong></li>
+                        <li><span>Leadership</span><strong>Chairman, ENKA Alumni Supervisory Board</strong></li>
+                        <li><span>Languages</span><strong>Turkish (native), English (C1/B2), German (A2), Greek (A2)</strong></li>
                     </ul>
                 </div>
             </div>
         </section>
 
-        <section id="portfolio" class="section">
+        <section id="expertise" class="section" aria-labelledby="expertise-title">
             <div class="container">
                 <div class="section-heading">
-                    <h2>Selected Work</h2>
-                    <p>A snapshot of hands-on projects that blend engineering fundamentals with immersive storytelling.</p>
+                    <p class="eyebrow">Expertise</p>
+                    <h2 id="expertise-title">Where I add momentum.</h2>
+                    <p class="muted">From optimizing BRT networks to prototyping XR walkthroughs, I connect engineering depth with product delivery.</p>
+                </div>
+                <div class="expertise-grid">
+                    <article class="expertise-card">
+                        <div class="pill subtle">Product</div>
+                        <h3>Product development</h3>
+                        <p class="muted">Lead full lifecycles for AEC solutions: R&amp;D, resourcing, market launch, and continuous optimization.</p>
+                        <div class="chip-row">
+                            <span class="chip">Roadmaps</span>
+                            <span class="chip">Stakeholder sync</span>
+                            <span class="chip">Lifecycle ops</span>
+                        </div>
+                    </article>
+                    <article class="expertise-card">
+                        <div class="pill subtle">Transport</div>
+                        <h3>BRT &amp; systems</h3>
+                        <p class="muted">Optimize BRT efficiency through data-backed operations, scenario modeling, and clear communication artifacts.</p>
+                        <div class="chip-row">
+                            <span class="chip">Process design</span>
+                            <span class="chip">Optimization</span>
+                            <span class="chip">Reporting</span>
+                        </div>
+                    </article>
+                    <article class="expertise-card">
+                        <div class="pill subtle">XR</div>
+                        <h3>Immersive storytelling</h3>
+                        <p class="muted">XR demos and visualizations that make structural analysis, load paths, and engineering tradeoffs feel tangible.</p>
+                        <div class="chip-row">
+                            <span class="chip">WebXR</span>
+                            <span class="chip">Three.js</span>
+                            <span class="chip">Spatial UI</span>
+                        </div>
+                    </article>
+                    <article class="expertise-card">
+                        <div class="pill subtle">Leadership</div>
+                        <h3>Student &amp; alumni leadership</h3>
+                        <p class="muted">Run governance, workshops, and playbooks that keep chapters organized and alumni engaged across events.</p>
+                        <div class="chip-row">
+                            <span class="chip">Playbooks</span>
+                            <span class="chip">Mentoring</span>
+                            <span class="chip">Operations</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section" aria-labelledby="skills-title">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Skills &amp; Tools</p>
+                    <h2 id="skills-title">Stacks I use to ship.</h2>
+                    <p class="muted">From web to civil engineering toolchains, here are the environments I reach for most.</p>
+                </div>
+                <div class="skills-grid">
+                    <article class="skills-card">
+                        <h3>Web &amp; Product</h3>
+                        <div class="chip-row">
+                            <span class="chip">HTML</span>
+                            <span class="chip">CSS</span>
+                            <span class="chip">Node.js</span>
+                            <span class="chip">React</span>
+                            <span class="chip">MongoDB</span>
+                            <span class="chip">SQL</span>
+                            <span class="chip">Nginx</span>
+                        </div>
+                    </article>
+                    <article class="skills-card">
+                        <h3>Civil Engineering</h3>
+                        <div class="chip-row">
+                            <span class="chip">MATLAB</span>
+                            <span class="chip">SAP2000</span>
+                            <span class="chip">Civil 3D</span>
+                            <span class="chip">AutoCAD</span>
+                            <span class="chip">Revit</span>
+                        </div>
+                    </article>
+                    <article class="skills-card">
+                        <h3>Immersive &amp; Media</h3>
+                        <div class="chip-row">
+                            <span class="chip">Unreal Engine 5</span>
+                            <span class="chip">Unity</span>
+                            <span class="chip">Cesium</span>
+                            <span class="chip">Adobe CC</span>
+                        </div>
+                    </article>
+                    <article class="skills-card">
+                        <h3>Collaboration</h3>
+                        <div class="chip-row">
+                            <span class="chip">Git</span>
+                            <span class="chip">GitHub Projects</span>
+                            <span class="chip">Workshops</span>
+                            <span class="chip">Presentation</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section" aria-labelledby="portfolio-title">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Selected Work</p>
+                    <h2 id="portfolio-title">Projects that feel alive.</h2>
+                    <p class="muted">Pieces that mix transportation systems, XR visuals, and intentional storytelling.</p>
                 </div>
                 <div class="portfolio-grid">
                     <article class="portfolio-card">
-                        <h3>XR Structural Demo</h3>
-                        <p>Built an extended reality walkthrough that visualizes load paths and failure modes for students using accessible WebXR libraries.</p>
-                        <span class="tag">WebXR</span>
+                        <div class="card-top">
+                            <h3>XR Structural Demo</h3>
+                            <span class="tag">WebXR</span>
+                        </div>
+                        <p class="muted">Built an immersive walkthrough to visualize load transfer, failure modes, and reinforcement steps with intuitive motion cues.</p>
+                        <ul class="details">
+                            <li>Guided narration layered with interactive annotations</li>
+                            <li>Mobile-first controls tuned for smooth rotations</li>
+                            <li>Reusable shader presets for LXIR-style glow</li>
+                        </ul>
                     </article>
                     <article class="portfolio-card">
-                        <h3>Interactive Resume</h3>
-                        <p>Created a responsive personal site with fast-loading assets, clear typography, and actionable links for recruiters.</p>
-                        <span class="tag">Web</span>
+                        <div class="card-top">
+                            <h3>Interactive Resume</h3>
+                            <span class="tag">Web</span>
+                        </div>
+                        <p class="muted">A performant personal site with purposeful hierarchy, neon gradients, and calls to action tailored for recruiters.</p>
+                        <ul class="details">
+                            <li>Lightweight components with semantic HTML</li>
+                            <li>Optimized typography and tap targets for speed</li>
+                            <li>Microinteractions that guide navigation</li>
+                        </ul>
                     </article>
                     <article class="portfolio-card">
-                        <h3>Leadership Playbook</h3>
-                        <p>Documented processes for ENKA alumni events, volunteer onboarding, and student outreach to scale participation.</p>
-                        <span class="tag">Community</span>
+                        <div class="card-top">
+                            <h3>Leadership Playbook</h3>
+                            <span class="tag">Community</span>
+                        </div>
+                        <p class="muted">Documentation that scales alumni events and student outreach with clear onboarding, rituals, and feedback loops.</p>
+                        <ul class="details">
+                            <li>Volunteer role cards with success metrics</li>
+                            <li>Event runway templates and checklists</li>
+                            <li>Communication cadence that keeps momentum</li>
+                        </ul>
                     </article>
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="section contact">
+        <section id="experience" class="section" aria-labelledby="experience-title">
             <div class="container">
-                <h2>Contact</h2>
-                <p>Ready to collaborate on XR, web, or student initiatives.</p>
+                <div class="section-heading">
+                    <p class="eyebrow">Experience</p>
+                    <h2 id="experience-title">Where I've been putting in the reps.</h2>
+                </div>
+                <div class="timeline">
+                    <article class="timeline-item">
+                        <div class="timeline-dot" aria-hidden="true"></div>
+                        <div>
+                            <p class="eyebrow">IDEARC International Engineering and Consulting Ltd.</p>
+                            <div class="timeline-header">
+                                <h3>Product Development Manager</h3>
+                                <span class="muted">May 2023 — Present</span>
+                            </div>
+                            <p class="muted">Lead R&amp;D and product strategy for AEC offerings, optimize BRT systems, and manage resources to keep launches on schedule.</p>
+                        </div>
+                    </article>
+                    <article class="timeline-item">
+                        <div class="timeline-dot" aria-hidden="true"></div>
+                        <div>
+                            <p class="eyebrow">ENKA Technical Schools Alumni Association</p>
+                            <div class="timeline-header">
+                                <h3>Chairman, Supervisory Board</h3>
+                                <span class="muted">Sep 2022 — Present</span>
+                            </div>
+                            <p class="muted">Oversee governance, alumni engagement, and accountability standards while mentoring volunteers to deliver meaningful programs.</p>
+                        </div>
+                    </article>
+                    <article class="timeline-item">
+                        <div class="timeline-dot" aria-hidden="true"></div>
+                        <div>
+                            <p class="eyebrow">MEF University</p>
+                            <div class="timeline-header">
+                                <h3>B.Sc. Civil Engineering</h3>
+                                <span class="muted">Sep 2021 — Present</span>
+                            </div>
+                            <p class="muted">Third-year student focusing on structural analysis, geotechnical engineering, transportation, and construction management.</p>
+                        </div>
+                    </article>
+                    <article class="timeline-item">
+                        <div class="timeline-dot" aria-hidden="true"></div>
+                        <div>
+                            <p class="eyebrow">Özyeğin University</p>
+                            <div class="timeline-header">
+                                <h3>Biomechatronics Researcher Intern</h3>
+                                <span class="muted">Jul 2019 — Aug 2019</span>
+                            </div>
+                            <p class="muted">Researched kinematics and stress analysis for a 3-DoF robotic arm; presented findings to faculty and lab staff.</p>
+                        </div>
+                    </article>
+                    <article class="timeline-item">
+                        <div class="timeline-dot" aria-hidden="true"></div>
+                        <div>
+                            <p class="eyebrow">ENKA Technical High School</p>
+                            <div class="timeline-header">
+                                <h3>Project Supervisor Intern</h3>
+                                <span class="muted">Sep 2018 — Jul 2019</span>
+                            </div>
+                            <p class="muted">Led a 20-student team to design, manufacture, and present a 4-stroke, 2-cylinder V-type combustion engine.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" aria-labelledby="impact-title">
+            <div class="container two-column">
+                <div>
+                    <p class="eyebrow">Leadership &amp; Impact</p>
+                    <h2 id="impact-title">People-first systems that scale.</h2>
+                    <p class="muted">Whether mentoring peers or launching an XR pilot, I prioritize clarity, ownership, and rituals that keep teams energized.</p>
+                </div>
+                <div class="impact-grid">
+                    <div class="impact-card">
+                        <h3>Workshops &amp; Mentoring</h3>
+                        <p class="muted">Built learning sessions around structural concepts, XR tooling, and presentation skills for students and peers.</p>
+                    </div>
+                    <div class="impact-card">
+                        <h3>Operations</h3>
+                        <p class="muted">Created governance and event templates for alumni and student chapters, keeping accountability and momentum predictable.</p>
+                    </div>
+                    <div class="impact-card">
+                        <h3>Collaboration</h3>
+                        <p class="muted">Keeps stakeholders aligned with transparent updates, shared goals, and field-tested rituals from YetGen training.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact" aria-labelledby="contact-title">
+            <div class="container">
+                <p class="eyebrow">Let's collaborate</p>
+                <h2 id="contact-title">Ready to craft the next product or XR walkthrough?</h2>
+                <p class="muted">Reach out for BRT optimization, AEC product strategy, XR pilots, or student initiatives. I'm excited to help ideas glow.</p>
                 <div class="contact-links">
                     <a class="btn primary" href="mailto:gokhan@gokhandonmez.dev">Email Me</a>
-                    <a class="btn ghost" href="https://www.linkedin.com/in/donmezgokhan/" target="_blank" rel="noopener">Connect on LinkedIn</a>
+                    <a class="btn ghost" href="https://www.linkedin.com/in/donmezgokhan/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a>
                 </div>
             </div>
         </section>
@@ -122,8 +376,8 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Gökhan Dönmez. All Rights Reserved.</p>
-            <p>Built with curiosity and a love for immersive experiences.</p>
+            <p>&copy; 2024 Gökhan Dönmez. Crafted with curiosity and a neon glow.</p>
+            <p class="muted">Extended reality, web experiences, and community leadership.</p>
         </div>
     </footer>
 </body>
