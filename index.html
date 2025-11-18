@@ -1,72 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-        <meta name="name" content="Gökhan Dönmez's CV">
-        <meta name="robots" content="noindex, nofollow">
-        <title>Gökhan Dönmez's Portfolio</title>
-        <link rel="stylesheet" href="css/master.css">
-        <link rel="shortcut" href="favicon.ico" type="image/x-icon">
-        <link rel="FaviconIcon" href="favicon.ico" type="image/x-icon">
-    </head>
-
-<header>
-    <div class="container">
-        <h1>Gökhan Dönmez</h1>
-        <nav>
-            <ul>
-                <li><a href="#portfolio">Portfolio</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
-<div id="portfolio">
-    <!-- Portfolio content goes here -->
-</div>
-
-    <body>
-        <h1>Gökhan DÖNMEZ</h1>
-        <h2>About Me</h2>
-        <p>Extended Reality and Web Developer.</p>
-        <P>I am a junior Civil Engineering student at MEF University in Istanbul.</P>
-        <p>I am the Chairman of the Supervisory Board of ENKA Technical Schools Alumni Association and President of MEF ASCE.</p>
-        <h2>Credentials and Portfolio</h2>
-
-        <p><a href="docs/resume_donmez_gokhan_29052024.pdf">My Resume</a> | <a href="https://github.com/Horuspokus">My GitHub</a> | <a href="https://www.linkedin.com/in/donmezgokhan/">My LinkedIn</a></p>
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:gokhan@gokhandonmez.dev">gokhan@gokhandonmez.dev</a></p>
-    
-<!-- Portfolio Section 
-<section id="portfolio">
-    <div class="container">
-        <h2>My Portfolio</h2>
-        <div class="portfolio-items">
-            <!-- Portfolio item 1
-            <div class="portfolio-item">
-                <h3>Project Title 1</h3>
-                <p>Description of Project 1. Briefly describe what the project is about.</p>
-                <!-- Optionally add a link or an image
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="name" content="Gökhan Dönmez's CV">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Gökhan Dönmez's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="shortcut" href="favicon.ico" type="image/x-icon">
+    <link rel="FaviconIcon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="top-bar">
+        <div class="container">
+            <div class="branding">
+                <span class="logo">GD</span>
+                <div>
+                    <p class="eyebrow">Extended Reality &amp; Web Developer</p>
+                    <h1>Gökhan Dönmez</h1>
+                    <p class="eyebrow">LXIR-inspired interface</p>
+                </div>
             </div>
-
-            <!-- Portfolio item 2
-            <div class="portfolio-item">
-                <h3>Project Title 2</h3>
-                <p>Description of Project 2. Briefly describe what the project is about.</p>
-                <!-- Optional link or image
-            </div>
-
-            <!-- Add more portfolio items as needed
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
-</section> -->
+    </header>
 
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-copy">
+                    <p class="eyebrow">Civil Engineering Student • ENKA Alumni Leader</p>
+                    <h2>Blending technical craft with immersive storytelling.</h2>
+                    <p>
+                        I build web experiences and extended reality prototypes while studying Civil Engineering at
+                        MEF University. I also serve as Chairman of the Supervisory Board for ENKA Technical Schools
+                        Alumni Association and President of MEF ASCE. This portfolio is styled to echo LXIR's
+                        futuristic, neon-accented identity.
+                    </p>
+                    <div class="actions">
+                        <a class="btn primary" href="docs/resume_donmez_gokhan_29052024.pdf">View Resume</a>
+                        <a class="btn ghost" href="#portfolio">See Projects</a>
+                    </div>
+                </div>
+                <div class="hero-card">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="https://lxir.tech" target="_blank" rel="noopener">LXIR.tech</a></li>
+                        <li><a href="https://github.com/Horuspokus" target="_blank" rel="noopener">GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/donmezgokhan/" target="_blank" rel="noopener">LinkedIn</a></li>
+                        <li><a href="mailto:gokhan@gokhandonmez.dev">gokhan@gokhandonmez.dev</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container two-column">
+                <div>
+                    <h2>About Me</h2>
+                    <p>Curious builder exploring how extended reality and the web can make complex ideas easier to grasp. I enjoy leading teams, mentoring peers, and turning early-stage ideas into polished demos with a visual language that mirrors LXIR's glowing gradients.</p>
+                </div>
+                <div class="highlight">
+                    <h3>Recent Focus</h3>
+                    <ul>
+                        <li>Interactive XR walkthroughs for structural concepts</li>
+                        <li>Responsive web prototypes with clean UI systems</li>
+                        <li>Student leadership and community building</li>
+                        <li>Bringing LXIR-inspired styling to immersive demos</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Selected Work</h2>
+                    <p>A snapshot of hands-on projects that blend engineering fundamentals with immersive storytelling.</p>
+                </div>
+                <div class="portfolio-grid">
+                    <article class="portfolio-card">
+                        <h3>XR Structural Demo</h3>
+                        <p>Built an extended reality walkthrough that visualizes load paths and failure modes for students using accessible WebXR libraries.</p>
+                        <span class="tag">WebXR</span>
+                    </article>
+                    <article class="portfolio-card">
+                        <h3>Interactive Resume</h3>
+                        <p>Created a responsive personal site with fast-loading assets, clear typography, and actionable links for recruiters.</p>
+                        <span class="tag">Web</span>
+                    </article>
+                    <article class="portfolio-card">
+                        <h3>Leadership Playbook</h3>
+                        <p>Documented processes for ENKA alumni events, volunteer onboarding, and student outreach to scale participation.</p>
+                        <span class="tag">Community</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>Ready to collaborate on XR, web, or student initiatives.</p>
+                <div class="contact-links">
+                    <a class="btn primary" href="mailto:gokhan@gokhandonmez.dev">Email Me</a>
+                    <a class="btn ghost" href="https://www.linkedin.com/in/donmezgokhan/" target="_blank" rel="noopener">Connect on LinkedIn</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Gökhan Dönmez. All Rights Reserved.</p>
+            <p>Built with curiosity and a love for immersive experiences.</p>
+        </div>
+    </footer>
 </body>
-<footer>
-    <div class="container">
-        <p>&copy; 2023 Gökhan Dönmez. All Rights Reserved.</p>
-        <p>Contact Information: gokhan@gokhandonmez.dev, /in/donmezgokhan</p>
-    </div>
-</footer>
 </html>
